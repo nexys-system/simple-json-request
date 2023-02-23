@@ -1,0 +1,32 @@
+{
+  "name": "@nexys/simple-json-request",
+  "version": "0.0.1",
+  "keywords": [],
+  "types": "index.d.ts",
+  "description": "Simple JSON request",
+  "main": "src/lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"no test\"",
+    "buildpackage": "tsc -p tsconfig.package.json"
+  },
+  "dependencies": {},
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexys-system/simple-json-request.git"
+  },
+  "author": "Nexys Sarl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexys-system/simple-json-request/issues"
+  },
+  "homepage": "https://github.com/nexys-system/simple-json-request#readme",
+  "type": "module"
+}
