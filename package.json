@@ -1,6 +1,6 @@
 {
   "name": "@nexys/simple-json-request",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "keywords": [],
   "types": "index.d.ts",
   "description": "Simple JSON request",
